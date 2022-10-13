@@ -44,7 +44,7 @@ $('.btn').on('click', function() {
     }
 });
 
-$(document).keydown(function() {
+$(document).on('click', function() {
     if (started === false) {
     nextSequence();
     started = true;
